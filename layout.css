@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+#form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.image img {
+    width: 100%;
+    border-radius: 8px;
+}
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.job-txt,
+.word-txt,
+.insp-txt,
+.dis-txt {
+    font-weight: bold;
+    color: #00EBC7;
+}
+.details {
+    flex-grow: 1;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.edit {
+    margin-top: 10px; 
+}
+.del {
+    margin-top: 25px;
+}
+.edit a,
+.del a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.del a {
+    background-color: #f44336;
+}
